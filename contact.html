@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+<title>Book a Growth Call | Linkbe</title>
+<meta name="description" content="Tell us about your fitness or wellness business and book a free SEO strategy call with Linkbe.">
+<script>document.documentElement.className += ' js';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;650;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="frame-line l"></div>
+<div class="frame-line r"></div>
+
+<header class="site">
+  <nav class="nav">
+    <a href="index.html" class="brand-mark"><span class="dot"></span>Linkbe</a>
+    <ul class="nav-links">
+      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+      <li class="nav-item">
+        <a href="services.html" class="nav-link">Services</a>
+        <div class="mega">
+          <a href="services/technical-seo.html"><span class="t">Technical SEO</span><span class="d">Audits, crawl analysis &amp; site architecture.</span></a>
+          <a href="services/seo-content.html"><span class="t">SEO Content</span><span class="d">Content built around real search intent.</span></a>
+          <a href="services/link-building.html"><span class="t">Link Building &amp; Digital PR</span><span class="d">Relevant, quality-focused authority.</span></a>
+          <a href="services/local-seo.html"><span class="t">Local SEO</span><span class="d">Win the searches happening near you.</span></a>
+          <a href="services/conversion-optimization.html"><span class="t">Conversion Optimization</span><span class="d">Turn traffic into enquiries.</span></a>
+          <a href="services.html"><span class="t">All Services →</span><span class="d">See the full breakdown.</span></a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+      <li class="nav-item"><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+      <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-ink">Book a Growth Call</a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero" style="padding-bottom:0;border-bottom:none;">
+    <div class="wrap">
+      <span class="eyebrow">Contact</span>
+      <h1>Let's look at your SEO opportunity.</h1>
+      <p class="lede">Tell us about your business below. We review every website before the call, so please answer as accurately as you can. It makes the conversation more useful for both of us.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap grid g2" style="align-items:start;gap:60px;">
+
+      <div>
+        <!-- This form is presentational only. Wire the `action` attribute (or the
+             onsubmit handler below) to a real form backend (e.g. Formspree,
+             HubSpot, or a server endpoint) before going live. -->
+        <form id="lead-form" novalidate>
+          <div class="field"><label for="fullname">Full name *</label><input type="text" id="fullname" name="fullname" required></div>
+          <div class="field-row">
+            <div class="field"><label for="email">Business email *</label><input type="email" id="email" name="email" required></div>
+            <div class="field"><label for="website">Website URL *</label><input type="url" id="website" name="website" placeholder="https://" required></div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="business-type">Business type *</label>
+              <select id="business-type" name="business-type" required>
+                <option value="" disabled selected>Select one</option>
+                <option>Gym / fitness studio</option>
+                <option>Personal training / coaching</option>
+                <option>Wellness center / spa</option>
+                <option>Nutrition / recovery brand</option>
+                <option>Wellness e-commerce</option>
+                <option>Fitness equipment brand</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="budget">Monthly SEO budget *</label>
+              <select id="budget" name="budget" required>
+                <option value="" disabled selected>Select one</option>
+                <option>$3,000–$5,000/month</option>
+                <option>$5,000–$8,000/month</option>
+                <option>$8,000+/month</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="field"><label for="challenge">Biggest SEO challenge *</label><textarea id="challenge" name="challenge" required></textarea></div>
+
+          <hr class="rule" style="margin:28px 0;">
+          <p class="mono" style="font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:20px;">Optional, helps us prepare</p>
+
+          <div class="field"><label for="market">Target market</label><input type="text" id="market" name="market" placeholder="e.g. gyms in the Southeast US"></div>
+          <div class="field-row">
+            <div class="field"><label for="channels">Current marketing channels</label><input type="text" id="channels" name="channels" placeholder="e.g. Instagram, Google Ads, referrals"></div>
+            <div class="field"><label for="traffic">Current organic traffic</label><input type="text" id="traffic" name="traffic" placeholder="Rough monthly estimate, if known"></div>
+          </div>
+          <div class="field"><label for="goal">Main business goal</label><input type="text" id="goal" name="goal"></div>
+          <div class="field"><label for="source">How did you hear about Linkbe?</label><input type="text" id="source" name="source"></div>
+
+          <button type="submit" class="btn btn-cta" style="width:100%;justify-content:center;padding:16px;margin-top:12px;">
+            Book a Growth Call →
+          </button>
+          <p class="mono" style="font-size:.72rem;color:var(--ink-faint);text-align:center;margin-top:14px;">No credit card required. We reply within one business day.</p>
+        </form>
+
+        <div id="lead-confirm" hidden style="text-align:center;padding:60px 20px;">
+          <h2 style="font-size:1.8rem;letter-spacing:-.02em;margin-bottom:12px;">Thanks, we've got it.</h2>
+          <p style="color:var(--ink-soft);">We review every website before the call. Expect an email within one business day to schedule a time.</p>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:26px;">
+        <div class="card">
+          <span class="eyebrow">What happens next</span>
+          <ol style="margin:16px 0 0;padding-left:18px;color:var(--ink-soft);font-size:.92rem;line-height:2;">
+            <li>We review your website and search visibility.</li>
+            <li>We hold a 30-minute discovery call.</li>
+            <li>We send a proposal with a recommended package.</li>
+            <li>You decide, no pressure, no hard close.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <span class="eyebrow">Before you book</span>
+          <p style="color:var(--ink-soft);font-size:.9rem;margin-top:12px;">Linkbe works best for businesses with a marketing budget of at least $3,000/month, an existing website, and a realistic view that SEO is a long-term investment, not an instant-results channel.</p>
+        </div>
+        <div class="card bg-accent" style="border-color:var(--accent);">
+          <span class="eyebrow" style="color:#dfe6ff;">Prefer email?</span>
+          <p style="font-size:.9rem;margin-top:12px;opacity:.9;">Reach us directly and we'll follow up with next steps.</p>
+          <a href="mailto:hello@linkbe.com" class="mono" style="font-weight:700;display:inline-block;margin-top:10px;">hello@linkbe.com</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap foot-top">
+    <div>
+      <a href="index.html" class="brand-mark" style="color:#fefdfb;margin-bottom:14px;display:flex;"><span class="dot"></span>Linkbe</a>
+      <p style="opacity:.7;font-size:.9rem;max-width:32ch;">SEO built for fitness &amp; wellness brands. More visibility. More qualified leads. Sustainable growth.</p>
+    </div>
+    <div><h5>Services</h5><ul>
+      <li><a href="services/technical-seo.html">Technical SEO</a></li>
+      <li><a href="services/seo-content.html">SEO Content</a></li>
+      <li><a href="services/link-building.html">Link Building &amp; Digital PR</a></li>
+      <li><a href="services/local-seo.html">Local SEO</a></li>
+      <li><a href="services/conversion-optimization.html">Conversion Optimization</a></li>
+    </ul></div>
+    <div><h5>Company</h5><ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="case-studies.html">Case Studies</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul></div>
+    <div><h5>Get Started</h5><ul>
+      <li><a href="contact.html">Book a Growth Call</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></div>
+    <div><h5>Legal</h5><ul>
+      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Service</a></li>
+    </ul></div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© 2026 Linkbe. All rights reserved.</span>
+    <span>SEO Built for Fitness &amp; Wellness Brands.</span>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+<script>
+  document.getElementById('lead-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!this.checkValidity()) { this.reportValidity(); return; }
+    this.hidden = true;
+    document.getElementById('lead-confirm').hidden = false;
+  });
+</script>
+</body>
+</html>
